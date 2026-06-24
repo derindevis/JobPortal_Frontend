@@ -70,7 +70,7 @@ export default function LandingPage() {
         
         {/* Left Floating Graphic (Candidate Badge) */}
         <div className="floating-graphic floating-card-left" style={{
-          flex: '0 0 230px',
+          flex: '0 0 210px',
           padding: '16px',
           background: 'var(--card-bg)',
           border: '1px solid var(--border)',
@@ -102,10 +102,10 @@ export default function LandingPage() {
         </div>
 
         {/* Center Hero content */}
-        <div style={{ flex: '1', maxWidth: '640px', padding: '0 10px' }}>
+        <div style={{ flex: '1', maxWidth: '520px', padding: '0 10px' }}>
           {/* Main Title */}
           <h1 style={{ 
-            fontSize: '3.6rem', 
+            fontSize: '3.4rem', 
             fontWeight: 800, 
             lineHeight: 1.15, 
             letterSpacing: '-1.8px', 
@@ -122,7 +122,7 @@ export default function LandingPage() {
 
           {/* Subtitle */}
           <p style={{ 
-            fontSize: '1.2rem', 
+            fontSize: '1.15rem', 
             lineHeight: '1.6', 
             color: 'var(--text)', 
             opacity: 0.85, 
@@ -160,7 +160,7 @@ export default function LandingPage() {
 
         {/* Right Floating Graphic (Job Badge) */}
         <div className="floating-graphic floating-card-right" style={{
-          flex: '0 0 250px',
+          flex: '0 0 230px',
           padding: '18px',
           background: 'var(--card-bg)',
           border: '1px solid var(--border)',
@@ -175,9 +175,9 @@ export default function LandingPage() {
             </span>
             <span style={{ fontSize: '12px' }}>🔥</span>
           </div>
-          <h4 style={{ margin: '0 0 4px 0', fontSize: '14.5px', color: 'var(--text-h)' }}>AI Research Engineer</h4>
-          <p style={{ margin: '0 0 12px 0', fontSize: '11.5px', color: 'var(--text)' }}>Cognitive Systems Ltd</p>
-          <div style={{ display: 'flex', gap: '6px' }}>
+          <h4 style={{ margin: '0 0 4px 0', fontSize: '14px', color: 'var(--text-h)' }}>AI Research Engineer</h4>
+          <p style={{ margin: '0 0 12px 0', fontSize: '11px', color: 'var(--text)' }}>Cognitive Systems Ltd</p>
+          <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
             <span style={{ fontSize: '10px', background: 'var(--code-bg)', padding: '2px 8px', borderRadius: '4px', color: 'var(--text-h)', fontWeight: 600 }}>
               Bengaluru
             </span>
